@@ -100,7 +100,7 @@ const CtaAreaHomeOne = ({ style_2, style_3, style_4 }: any) => {
                 </div>
               }
 
-              <section className={`${style_4? "get-start-section fix white-bg" : "get-starteds before-none position-relative fix space-bottom"}`}>
+              {/* <section className={`${style_4? "get-start-section fix white-bg" : "get-starteds before-none position-relative fix space-bottom"}`}>
                 <div className="container">
                   <div className="partnert-get-wrapper space-bottom space-top rounded-3 text-center">
                     <div className="section-title">
@@ -119,7 +119,7 @@ const CtaAreaHomeOne = ({ style_2, style_3, style_4 }: any) => {
                     </div>
                   </div>
                 </div>
-              </section>
+              </section> */}
 
 
 
@@ -127,7 +127,7 @@ const CtaAreaHomeOne = ({ style_2, style_3, style_4 }: any) => {
             :
             <>
 
-              <div className="partnert-get-wrapper space-bottom space-top rounded-3 text-center">
+              {/* <div className="partnert-get-wrapper space-bottom space-top rounded-3 text-center">
                 <div className="section-title">
                   <h6 className="body-font white-sub-badge white mb-xxl-4 mb-sm-3 mb-3 text-uppercase wow fadeInUp"
                     data-wow-delay=".3s">
@@ -142,9 +142,9 @@ const CtaAreaHomeOne = ({ style_2, style_3, style_4 }: any) => {
                     Contact With Us
                   </Link>
                 </div>
-              </div>
+              </div> */}
 
-              <div className="space-top">
+              {/* <div className="space-top">
                 <h4 className="text-center black fw-bold mb-60 wow fadeInUp" data-wow-delay=".3s">Over 2,000 Company
                   worldwide
                   rely on Reail
@@ -225,7 +225,7 @@ const CtaAreaHomeOne = ({ style_2, style_3, style_4 }: any) => {
                   </div>
                 </div>
 
-              </div>
+              </div> */}
 
             </>
 

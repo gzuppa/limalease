@@ -34,10 +34,10 @@ const HeroArea = ({setIsVideoOpen} : any) => {
             <div className="banner-inner-item hero-images1">
               <div className="container z-1 position-relative">
                 <div className="banner-content">
-                  <span className="p2-clr fs-five fw_500 body-font mb-xl-4 mb-3 d-block">Virtual Reality</span>
+                  <span className="p2-clr fs-five fw_500 body-font mb-xl-4 mb-3 d-block">Titulo</span>
                   <h1 className="white fw_700 mb-xl-4 mb-3">
-                    Explore The World
-                    Using Virtual Reality
+                    Breve
+                    Descripción
                   </h1>
                   <p className="white fs-six mb-40">
                     Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
@@ -48,7 +48,7 @@ const HeroArea = ({setIsVideoOpen} : any) => {
                     className="banner-video d-flex flex-sm-nowrap flex-wrap align-items-center gap-xl-4 gap-lg-3 gap-2 mb-60 position-relative">
                     <Link href="/contact"
                       className="common-btn sub-font box-style first-box d-inline-flex px-4 justify-content-center align-items-center gap-xxl-2 gap-2 fs18 fw-semibold black2 overflow-hidden white-bg rounded-2">
-                      Discover More
+                      Mas
                     </Link>
                     <div className="d-flex align-items-center gap-3">
                       <a
@@ -57,7 +57,7 @@ const HeroArea = ({setIsVideoOpen} : any) => {
                         className="video-style p2-bg rounded-circle d-center video-popup">
                         <i className="fa-solid fa-play fs-six"></i>
                       </a>
-                      <span className="white fw_600 sub-font">Play Video</span>
+                      <span className="white fw_600 sub-font">Video</span>
                     </div>
 
                     <img src="assets/img/element/hero-element.png" alt="element" className="hero-text-element" />
@@ -81,9 +81,9 @@ const HeroArea = ({setIsVideoOpen} : any) => {
             <div className="banner-inner-item hero-images2">
               <div className="container z-1 position-relative">
                 <div className="banner-content">
-                  <span className="p2-clr fs-five fw_500 body-font mb-xl-4 mb-3 d-block">Virtual Reality</span>
+                  <span className="p2-clr fs-five fw_500 body-font mb-xl-4 mb-3 d-block">Titulo</span>
                   <h1 className="white fw_700 mb-xl-4 mb-3">
-                    Where Reality Ends and Imagination Begins
+                    Breve descripcion
                   </h1>
                   <p className="white fs-six mb-40">
                     Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
@@ -94,7 +94,7 @@ const HeroArea = ({setIsVideoOpen} : any) => {
                     className="banner-video d-flex flex-sm-nowrap flex-wrap align-items-center gap-xl-4 gap-lg-3 gap-2 mb-60 position-relative">
                     <Link href="/contact"
                       className="common-btn sub-font box-style first-box d-inline-flex px-4 justify-content-center align-items-center gap-xxl-2 gap-2 fs18 fw-semibold black2 overflow-hidden white-bg rounded-2">
-                      Discover More
+                      Mas
                     </Link>
                     <div className="d-flex align-items-center gap-3">
                       <a
@@ -103,7 +103,7 @@ const HeroArea = ({setIsVideoOpen} : any) => {
                         className="video-style p2-bg rounded-circle d-center video-popup">
                         <i className="fa-solid fa-play fs-six"></i>
                       </a>
-                      <span className="white fw_600 sub-font">Play Video</span>
+                      <span className="white fw_600 sub-font">Video</span>
                     </div>
 
                     <img src="assets/img/element/hero-element.png" alt="element" className="hero-text-element" />
@@ -127,9 +127,9 @@ const HeroArea = ({setIsVideoOpen} : any) => {
             <div className="banner-inner-item hero-images1">
               <div className="container z-1 position-relative">
                 <div className="banner-content">
-                  <span className="p2-clr fs-five fw_500 body-font mb-xl-4 mb-3 d-block">Virtual Reality</span>
+                  <span className="p2-clr fs-five fw_500 body-font mb-xl-4 mb-3 d-block">Titulo</span>
                   <h1 className="white fw_700 mb-xl-4 mb-3">
-                    Get Transported to New Worlds Through VR
+                    Breve descripcion
                   </h1>
                   <p className="white fs-six mb-40">
                     Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
@@ -140,7 +140,7 @@ const HeroArea = ({setIsVideoOpen} : any) => {
                     className="banner-video d-flex flex-sm-nowrap flex-wrap align-items-center gap-xl-4 gap-lg-3 gap-2 mb-60 position-relative">
                     <Link href="/contact"
                       className="common-btn sub-font box-style first-box d-inline-flex px-4 justify-content-center align-items-center gap-xxl-2 gap-2 fs18 fw-semibold black2 overflow-hidden white-bg rounded-2">
-                      Discover More
+                      Mas
                     </Link>
                     <div className="d-flex align-items-center gap-3">
                       <a
@@ -149,7 +149,7 @@ const HeroArea = ({setIsVideoOpen} : any) => {
                         className="video-style p2-bg rounded-circle d-center video-popup">
                         <i className="fa-solid fa-play fs-six"></i>
                       </a>
-                      <span className="white fw_600 sub-font">Play Video</span>
+                      <span className="white fw_600 sub-font">Video</span>
                     </div>
 
                     <img src="assets/img/element/hero-element.png" alt="element" className="hero-text-element" />

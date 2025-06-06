@@ -54,9 +54,9 @@ const About = () => {
             <BrandAbout />
             <VissionAbout />
             {/* <TestimonialAreaHomeOne /> */}
-            <TestimonialAbout />
+            {/* <TestimonialAbout /> */}
             <UseitArea setIsVideoOpen={setIsVideoOpen} />
-            <BrandHomeOne />
+            {/* <BrandHomeOne /> */}
             <TeamAreaAbout />
             <CtaAreaAbout />
             <FooterOne />

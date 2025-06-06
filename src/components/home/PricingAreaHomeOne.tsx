@@ -11,11 +11,11 @@ const PricingAreaHomeOne = () => {
           <div className="section-title text-center mb-60">
             <h6 className="body-font p2-badge p2-clr mb-xxl-3 mb-sm-3 mb-2 text-uppercase wow fadeInUp"
               data-wow-delay=".3s">
-              PRICING PACKAGE
+              PRICING 
             </h6>
             <h2 className="white visible-slowly-right fw-bold d-block">
-              Simple, Transparent and <br />
-              Great pricing.
+              Titulo <br />
+             
             </h2>
           </div>
           <div className="row g-lg-4 g-4 align-items-center">

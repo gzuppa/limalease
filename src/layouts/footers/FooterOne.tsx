@@ -71,13 +71,13 @@ const FooterOne = () => {
 
           <img src="assets/img/element/slogan-v1-shape3.png" alt="element" className="footer-element" />
         </div>
-        <div className="footer-bottom">
+        {/* <div className="footer-bottom">
           <div className="container">
             <p className="text-white fs-seven wow fadeInLeft body-font text-center" data-wow-delay=".3s">
               rk-theme © {new Date().getFullYear()}. All Rights Reserved.
             </p>
           </div>
-        </div>
+        </div> */}
       </footer>
     </>
   );

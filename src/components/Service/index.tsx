@@ -53,7 +53,7 @@ const Service = () => {
             <ServiceArea />
             <PricingAreaHomeOne />
             <ChooseAreaHomeOne style_2={true} />
-            <BrandHomeOne />
+            {/* <BrandHomeOne /> */}
             <CtaAreaHomeOne style_2={true} />
             <FooterOne />
           </main>

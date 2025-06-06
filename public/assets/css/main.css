@@ -2,7 +2,7 @@
 Theme Name: 
 Author: 
 Author URI: 
-Description: VrTua - Virtual reality services HTML Template<
+Description: LimaLease<
 Version: 1.0.0
 */
 /*CSS Table Of Content Ends Here*/
@@ -68,7 +68,7 @@ Version: 1.0.0
 }
 
 .box-style.first-box::before {
-  background-color: rgb(255, 206, 90);
+  background-color: rgb(81, 202, 30);
 }
 .box-style.first-box:hover i {
   color: rgb(0, 2, 41);
@@ -573,11 +573,11 @@ footer {
 }
 
 .p2-clr {
-  color: rgb(255, 206, 90);
+  color: rgb(81, 202, 30);
 }
 
 .p2-bg {
-  background: rgb(255, 206, 90);
+  background: rgb(81, 202, 30);
 }
 
 .pra-clr {
@@ -621,7 +621,7 @@ footer {
 }
 
 .ratting {
-  color: #ffc000;
+  color: rgb(81, 202, 30);
 }
 
 .before-none::before {
@@ -1406,7 +1406,7 @@ footer {
   left: 1px;
   top: 4px;
   content: "";
-  background: rgb(255, 206, 90);
+  background: rgb(81, 202, 30);
   height: 40%;
   width: 2px;
 }
@@ -1669,7 +1669,7 @@ footer {
 }
 .footer-section .footer-top .footer-widget .footer-list li a:hover {
   text-decoration: underline;
-  color: rgb(255, 206, 90);
+  color: rgb(81, 202, 30);
 }
 .footer-section .footer-top .footer-widget form {
   display: flex;
@@ -1874,10 +1874,10 @@ footer {
   gap: 8px;
 }
 .header-top-social a:hover {
-  color: rgb(255, 206, 90);
+  color: rgb(81, 202, 30);
 }
 .header-top-social a:hover i {
-  color: rgb(255, 206, 90);
+  color: rgb(81, 202, 30);
 }
 .header-top-social .line {
   width: 1px;
@@ -2298,10 +2298,10 @@ footer {
   color: rgb(0, 2, 41);
 }
 .offcanvas__wrapper .offcanvas__content .offcanvas__contact .header-top-social a:hover {
-  color: rgb(255, 206, 90);
+  color: rgb(81, 202, 30);
 }
 .offcanvas__wrapper .offcanvas__content .offcanvas__contact .header-top-social a:hover i {
-  color: rgb(255, 206, 90);
+  color: rgb(81, 202, 30);
 }
 
 .offcanvas__overlay {
@@ -2687,7 +2687,7 @@ footer {
 
 .box-color-1 {
   background-color: rgba(248, 184, 31, 0.15);
-  color: #f8b81f;
+  color: rgb(81, 202, 30);
 }
 
 .box-color-2 {
@@ -3829,7 +3829,7 @@ input.main-search-input::placeholder {
   background: #fff !important;
 }
 .section-title h6.p2-badge::before {
-  background: rgb(255, 206, 90) !important;
+  background: rgb(81, 202, 30) !important;
 }
 .section-title h2 {
   font-weight: 500;
@@ -4150,7 +4150,7 @@ input.main-search-input::placeholder {
   font-size: 18px;
 }
 .testimonial-section .array-button button.active, .testimonial-section .array-button button:hover {
-  background: rgb(255, 206, 90);
+  background: rgb(81, 202, 30);
 }
 .testimonial-section .array-button button.active i, .testimonial-section .array-button button:hover i {
   color: rgb(0, 2, 41);

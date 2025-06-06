@@ -47,7 +47,7 @@ const Team = () => {
           <main>
             <BreadcrumbsTeam />
             <TeamArea />
-            <BrandHomeOne />
+            {/* <BrandHomeOne /> */}
             <ProjectsTeam />
             <CtaAreaHomeOne style_2={true} style_3={true} />         
             <FooterOne />

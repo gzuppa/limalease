@@ -58,16 +58,16 @@ const HomeOne = () => {
           <main>
             <HeroArea setIsVideoOpen={setIsVideoOpen} />
             <HomeAbout />
-            <BrandHomeOne />
+            {/* <BrandHomeOne /> */}
             <ServiceAreaHomeOne />
-            <TestimonialAreaHomeOne />
+            {/* <TestimonialAreaHomeOne /> */}
             <ChooseAreaHomeOne setIsVideoOpen={setIsVideoOpen} />
             <PricingAreaHomeOne />
             <FaqAreaHomeOne />
             <CtaAreaHomeOne />
             <ProjectsAreaHomeOne />
             <GetinTouchHomeOne />
-            <NewsAreaHomeOne />
+            {/* <NewsAreaHomeOne /> */}
             <FooterOne />
           </main>
         </div>

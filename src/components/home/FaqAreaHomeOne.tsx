@@ -13,10 +13,10 @@ const FaqAreaHomeOne = () => {
         <div className="container">
           <div className="section-title text-center mb-60">
             <h6 className="body-font p1-clr mb-xxl-3 mb-sm-3 mb-2 text-uppercase wow fadeInUp" data-wow-delay=".3s">
-              QUESTIONS & ANSWERS
+              FAQ
             </h6>
             <h2 className="black visible-slowly-right fw-bold d-block">
-              Frequently Asked Questions
+              FAQ
             </h2>
           </div>
           <div className="accordion faq-content border-0 d-flex flex-column gap-xxl-4 gap-3" id="accordionExample">

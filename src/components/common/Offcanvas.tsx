@@ -25,15 +25,14 @@ const Offcanvas = ({open, toggleSidebar} :any) => {
                 <MobileMenu />
               </div>
               <div className="offcanvas__contact">
-                <h4 className="fw_600">Contact Info</h4>
+                <h4 className="fw_600">Contacto</h4>
                 <ul>
                   <li className="d-flex align-items-center">
                     <div className="offcanvas__contact-icon">
                       <i className="fal fa-map-marker-alt fs-five"></i>
                     </div>
                     <div className="offcanvas__contact-text">
-                      <a target="_blank" href="#" className="fs-eight">121 W 27th Street, Office 48
-                        New York, NY, USA 10001</a>
+                      <a target="_blank" href="#" className="fs-eight">Dirección</a>
                     </div>
                   </li>
                   <li className="d-flex align-items-center">
@@ -41,7 +40,7 @@ const Offcanvas = ({open, toggleSidebar} :any) => {
                       <i className="far fa-phone"></i>
                     </div>
                     <div className="offcanvas__contact-text">
-                      <a href="tel:+11002345909">+1 (234) 567 890</a>
+                      <a href="tel:+11002345909">+52 (55) 55555555</a>
                     </div>
                   </li>
                   <li className="d-flex align-items-center">
@@ -58,7 +57,7 @@ const Offcanvas = ({open, toggleSidebar} :any) => {
                       <i className="fal fa-clock"></i>
                     </div>
                     <div className="offcanvas__contact-text">
-                      <a target="_blank" href="#">Mod-friday, 06am -02pm</a>
+                      <a target="_blank" href="#">Lun-Vie, 09am -02pm</a>
                     </div>
                   </li>
 
@@ -66,7 +65,7 @@ const Offcanvas = ({open, toggleSidebar} :any) => {
                 <div className="header-button mt-4">
                   <Link href="/contact"
                     className="common-btn box-style first-box d-inline-flex justify-content-center align-items-center gap-xxl-2 gap-2 fs18 fw-semibold white overflow-hidden p1-bg rounded-2">
-                    Get Started Today
+                    Botón
                   </Link>
                 </div>
                 <div

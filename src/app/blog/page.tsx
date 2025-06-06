@@ -2,11 +2,11 @@
 import Blog from '@/components/blog';
 import React from 'react';
 
-
+// TO DO: REVISAR TODA LA METADATA
 export const metadata = {
-	title: "Blog Vrtua - Virtual reality services Next JS Template",
+	title: "LimaLease",
 	description:
-		"Vrtua is a modern and clean Next js Template that is perfect for those who want to create a professional-looking website for Virtual Reality Services, VR, Augmented Reality Solutions, Gameroom, Crytpo, Esports or Metaverse business or any other related business",
+		"LimaLease metadata",
 };
 
 const index = () => {

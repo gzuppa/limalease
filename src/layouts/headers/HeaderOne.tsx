@@ -20,7 +20,7 @@ const HeaderOne = ({ searchOpen, setSearchOpen }: any) => {
       <div className="header-top-section d-none d-xl-block">
         <div className="container">
           <div className="header-top-wrapper">
-            <ul className="contact-list">
+            {/* <ul className="contact-list">
               <li>
                 <i className="fa-regular fa-clock p2-clr"></i>
                 Mon – Sun: 9.00 am – 8.00pm
@@ -35,7 +35,7 @@ const HeaderOne = ({ searchOpen, setSearchOpen }: any) => {
                 <i className="fa-solid fa-location-dot p2-clr"></i>
                 <a href="#" className="link">A-1, Envanto HQ, Australia</a>
               </li>
-            </ul>
+            </ul> */}
             <div className="header-top-social d-flex align-items-center">
               <a href="#" className="white sub-font"><i className="fa-brands fa-facebook"></i> Facebook</a>
               <span className="line"></span>
@@ -53,7 +53,8 @@ const HeaderOne = ({ searchOpen, setSearchOpen }: any) => {
           <div className="mega-menu-wrapper">
             <div className="header-main">
               <Link href="/" className="header-logo">
-                <img src="assets/img/logo/logo.png" alt="logo-img" />
+                {/* <img src="assets/img/logo/logo.png" alt="logo-img" /> */}
+                Aqui el logo
               </Link>
               <div className="mean__menu-wrapper d-none d-xl-block">
                 <div className="main-menu">
@@ -101,12 +102,12 @@ const HeaderOne = ({ searchOpen, setSearchOpen }: any) => {
               </div>
               <div className="header-right d-flex justify-content-end align-items-center">
                 <a href="#" className="call-icon"><i className="fa-solid fa-phone"></i> <span
-                  className="d-md-block d-none">(+62) 81 6754 345</span></a>
+                  className="d-md-block d-none">(+52) 55 555 555</span></a>
                 <a style={{ cursor: "pointer" }} onClick={() => setSearchOpen(!searchOpen)} className="search-trigger search-icon"><i className="fa-solid fa-magnifying-glass"></i></a>
                 <Link href="/contact"
                   className="common-btn box-style first-box d-inline-flex justify-content-center align-items-center gap-xxl-2 gap-2 fs18 fw-semibold white overflow-hidden p1-bg rounded-2 d-sm-flex d-none">
-                  <span className="d-md-block d-none">Get</span> Started <span
-                    className="d-md-block d-none">Today</span>
+                  <span className="d-md-block d-none">Botón</span>  <span
+                    className="d-md-block d-none"></span>
                 </Link>
                 <div className="header__hamburger my-auto">
                   <div className="sidebar__toggle" onClick={toggleSidebar}>

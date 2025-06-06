@@ -16,8 +16,8 @@ const HomeAbout = () => {
                   </div>
                   <div className="content-count">
                     <div className="count-item">25+</div>
-                    <p>Years of <br />
-                      Experience</p>
+                    <p>Años de <br />
+                      experiencia</p>
                   </div>
                 </div>
                 <div className="thumb-inner d-flex reveal-bottom">
@@ -29,24 +29,20 @@ const HomeAbout = () => {
               <div className="about-content">
                 <div className="section-title">
                   <h6 className="body-font left-sub-maintain p1-clr mb-xxl-3 mb-sm-3 mb-2 text-uppercase wow fadeInUp"
-                    data-wow-delay=".3s">About Company
+                    data-wow-delay=".3s">Acerca de 
                   </h6>
                   <h2 className="black visible-slowly-right fw-bold mb-xl-4 mb-3 d-block">
-                    Reach out and let
-                    your mind explore
+                    Titulo
                   </h2>
                   <p className="pra mb-lg-3 mb-2 visible-from-bottom">
-                    There are many variations of passages of Lorem Ipsum available, but the majority have
-                    suffered alteration in some form,
+                    Descripcion 1
                   </p>
                   <p className="pra mb-xl-2 visible-from-bottom">
-                    By injected randomised words which dont look even slightly believable. If you are going
-                    to use a passage of Lorem
-                    Ipsum,
+                    Descripcion 2
                   </p>
                   <Link href="/about"
                     className="common-btn box-style first-box d-inline-flex justify-content-center align-items-center gap-xxl-2 gap-2 fs18 fw-semibold white overflow-hidden p1-bg mt-4 rounded-2">
-                    Learn More
+                    Boton
                   </Link>
                 </div>
               </div>
