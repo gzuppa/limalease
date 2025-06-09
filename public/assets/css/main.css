@@ -342,7 +342,7 @@ footer {
   gap: 24px;
 }
 .about-thumbs .thumb-inner .content-count {
-  background: url(../../assets/img/about/expricne-bg.png) no-repeat center center;
+  background: url(https://img.freepik.com/free-vector/gradient-monochromatic-abstract-background_52683-74300.jpg?semt=ais_hybrid&w=740) no-repeat center center;
   background-size: cover;
   padding: 34px 16px;
   display: flex;
@@ -2773,12 +2773,12 @@ footer {
 }
 
 .hero-images1 {
-  background: url(../../assets/img/banner/hero1.jpg) no-repeat center center;
+  background: url(../../assets/img/banner/flotillas-sostenibles-ofs.webp) no-repeat center center;
   background-size: cover;
 }
 
 .hero-images2 {
-  background: url(../../assets/img/banner/hero2.jpg) no-repeat center center;
+  background: url(../../assets/img/banner/leasing-hero.jpeg) no-repeat center center;
   background-size: cover;
 }
 
@@ -3723,7 +3723,7 @@ input.main-search-input::placeholder {
 }
 
 .pricing-section {
-  background: url(../../assets/img/element/pricing-bg.png) no-repeat center center;
+  /* background: url(../../assets/img/element/pricing-bg.png) no-repeat center center; */
   background-size: cover;
 }
 

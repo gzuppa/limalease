@@ -29,7 +29,7 @@ const menu_data:MenuType[] = [
 	{
 		id: 2,
 		title: "Menu 1",
-		link: "/about",
+		link: "/",
 		has_dropdown: false,
 	},
 	{
@@ -38,8 +38,8 @@ const menu_data:MenuType[] = [
 		link: "#",
 		has_dropdown: true,
 		sub_menus: [
-			{ link: "/service", title: "Submenu 1" },
-			{ link: "/service-details", title: "Submenu 2" },
+			{ link: "/", title: "Submenu 1" },
+			{ link: "/", title: "Submenu 2" },
 		],
 	},
 	{
@@ -48,10 +48,10 @@ const menu_data:MenuType[] = [
 		link: "#",
 		has_dropdown: true,
 		sub_menus: [
-			{ link: "/team", title: "Submenu 1" },
-			{ link: "/pricing", title: "Submenu 2" },
-			{ link: "/faqs", title: "Submenu 3" },
-			{ link: "/contact", title: "Submenu 4" },
+			{ link: "/", title: "Submenu 1" },
+			{ link: "/", title: "Submenu 2" },
+			{ link: "/", title: "Submenu 3" },
+			{ link: "/", title: "Submenu 4" },
 		],
 	},
 	{
@@ -60,14 +60,14 @@ const menu_data:MenuType[] = [
 		link: "#",
 		has_dropdown: true,
 		sub_menus: [
-			{ link: "/blog", title: "Submenu 1" },
-			{ link: "/blog-details", title: "Submenu 2" },
+			{ link: "/", title: "Submenu 1" },
+			{ link: "/", title: "Submenu 2" },
 		],
 	},
 	{
 		id: 6,
 		title: "Menu 5",
-		link: "/contact",
+		link: "/",
 		has_dropdown: false,
 	},
 ];

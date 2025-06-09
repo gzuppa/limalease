@@ -50,7 +50,7 @@ const GetinTouchHomeOne = () => {
             </div>
 
           </div>
-          <img src="assets/img/element/get-shape.png" alt="img" className="get-shape" />
+          {/* <img src="assets/img/element/get-shape.png" alt="img" className="get-shape" /> */}
           <img src="assets/img/element/get-elment.png" alt="img" className="get-element" />
         </div>
       </section>
