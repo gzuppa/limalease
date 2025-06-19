@@ -4,6 +4,47 @@ import Link from 'next/link';
 import React from 'react';
 import { Autoplay, EffectFade, Navigation, Pagination } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import './BeneficiosFirmaCar.css'
+
+const InfoCard = () => {
+  return (
+    <div className="container mt-5 p-4 bg-white rounded shadow">
+      <h1 className="fw-bold text-uppercase">Firma Car Auto</h1>
+      <h4 className="mt-3 mb-4">Beneficios</h4>
+
+      <div className="d-flex align-items-start mb-3">
+        <i className="fa-regular fa-clock benefit-icon mt-1"></i>
+        <p className="ms-3 mb-0">Tiempos de respuesta en 24 horas</p>
+      </div>
+
+      <div className="d-flex align-items-start mb-3">
+        <i className="fa-solid fa-hand-holding-dollar benefit-icon mt-1"></i>
+        <p className="ms-3 mb-0">Pago inicial mínimo y rentas mensuales fijas</p>
+      </div>
+
+      <div className="d-flex align-items-start mb-3">
+        <i className="fa-regular fa-calendar-check benefit-icon mt-1"></i>
+        <p className="ms-3 mb-0">Plazos de 12 a 60 meses</p>
+      </div>
+
+      <div className="d-flex align-items-start mb-3">
+        <i className="fa-solid fa-headset benefit-icon mt-1"></i>
+        <p className="ms-3 mb-0">Asesoría y atención personalizada</p>
+      </div>
+
+      <div className="d-flex align-items-start mb-3">
+        <i className="fa-solid fa-car-side benefit-icon mt-1"></i>
+        <p className="ms-3 mb-0">Opción de compra o devolución del auto</p>
+      </div>
+
+      <div className="mt-4">
+        <button className="contact-btn">
+          CONTÁCTANOS &nbsp; <i className="fa-solid fa-chevron-right"></i>
+        </button>
+      </div>
+    </div>
+  )
+}
 
 const HeroArea = ({setIsVideoOpen} : any) => {
 
@@ -33,136 +74,55 @@ const HeroArea = ({setIsVideoOpen} : any) => {
           <SwiperSlide className="swiper-slide">
             <div className="banner-inner-item hero-images1">
               <div className="container z-1 position-relative">
-                <div className="banner-content">
-                  <span className="p2-clr fs-five fw_500 body-font mb-xl-4 mb-3 d-block">Titulo</span>
-                  <h1 className="white fw_700 mb-xl-4 mb-3">
-                    Breve
-                    Descripción
-                  </h1>
-                  <p className="white fs-six mb-40">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                    nulla
-                    pariatur occaecat cupidatat
-                  </p>
-                  <div
-                    className="banner-video d-flex flex-sm-nowrap flex-wrap align-items-center gap-xl-4 gap-lg-3 gap-2 mb-60 position-relative">
-                    <Link href="/contact"
-                      className="common-btn sub-font box-style first-box d-inline-flex px-4 justify-content-center align-items-center gap-xxl-2 gap-2 fs18 fw-semibold black2 overflow-hidden white-bg rounded-2">
-                      Mas
-                    </Link>
-                    <div className="d-flex align-items-center gap-3">
-                      <a
-                        onClick={() => setIsVideoOpen(true)}
-                        style={{ cursor: 'pointer' }}
-                        className="video-style p2-bg rounded-circle d-center video-popup">
-                        <i className="fa-solid fa-play fs-six"></i>
-                      </a>
-                      <span className="white fw_600 sub-font">Video</span>
-                    </div>
-
-                    <img src="assets/img/element/hero-element.png" alt="element" className="hero-text-element" />
+                <div className="row">
+                  <div className="col-md-6 d-flex flex-column justify-content-center">
+                    <h1 className="white fw_700 mb-xl-4 mb-3">
+                      Juntos hacemos crecer a México
+                    </h1>
+                    <p className="white fs-four mb-40">
+                      Soluciones de arrendamiento para negocios de todos tamaños en cada rincón del país.
+                    </p>
                   </div>
-                  <div className="d-flex align-items-center gap-3">
-                    <h3 className="white fw_700">4.9 Rating</h3>
-                    <ul className="d-flex align-items-center gap-1">
-                      <li><i className="fa-solid fa-star fs-six ratting"></i></li>
-                      <li><i className="fa-solid fa-star fs-six ratting"></i></li>
-                      <li><i className="fa-solid fa-star fs-six ratting"></i></li>
-                      <li><i className="fa-solid fa-star fs-six ratting"></i></li>
-                      <li><i className="fa-solid fa-star fs-six ratting"></i></li>
-                    </ul>
+                  <div className="col-md-6 d-flex align-items-center justify-content-center">
+                    <InfoCard />
                   </div>
                 </div>
               </div>
             </div>
           </SwiperSlide>
-
           <SwiperSlide className="swiper-slide">
             <div className="banner-inner-item hero-images2">
               <div className="container z-1 position-relative">
-                <div className="banner-content">
-                  <span className="p2-clr fs-five fw_500 body-font mb-xl-4 mb-3 d-block">Titulo</span>
-                  <h1 className="white fw_700 mb-xl-4 mb-3">
-                    Breve descripcion
-                  </h1>
-                  <p className="white fs-six mb-40">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                    nulla
-                    pariatur occaecat cupidatat
-                  </p>
-                  <div
-                    className="banner-video d-flex flex-sm-nowrap flex-wrap align-items-center gap-xl-4 gap-lg-3 gap-2 mb-60 position-relative">
-                    <Link href="/contact"
-                      className="common-btn sub-font box-style first-box d-inline-flex px-4 justify-content-center align-items-center gap-xxl-2 gap-2 fs18 fw-semibold black2 overflow-hidden white-bg rounded-2">
-                      Mas
-                    </Link>
-                    <div className="d-flex align-items-center gap-3">
-                      <a
-                        onClick={() => setIsVideoOpen(true)}
-                        style={{ cursor: 'pointer' }}
-                        className="video-style p2-bg rounded-circle d-center video-popup">
-                        <i className="fa-solid fa-play fs-six"></i>
-                      </a>
-                      <span className="white fw_600 sub-font">Video</span>
-                    </div>
-
-                    <img src="assets/img/element/hero-element.png" alt="element" className="hero-text-element" />
+                <div className="row">
+                  <div className="col-md-6 d-flex flex-column justify-content-center">
+                    <h1 className="white fw_700 mb-xl-4 mb-3">
+                      Juntos hacemos crecer a México
+                    </h1>
+                    <p className="white fs-four mb-40">
+                      Soluciones de arrendamiento para negocios de todos tamaños en cada rincón del país.
+                    </p>
                   </div>
-                  <div className="d-flex align-items-center gap-3">
-                    <h3 className="white fw_700">4.9 Rating</h3>
-                    <ul className="d-flex align-items-center gap-1">
-                      <li><i className="fa-solid fa-star fs-six ratting"></i></li>
-                      <li><i className="fa-solid fa-star fs-six ratting"></i></li>
-                      <li><i className="fa-solid fa-star fs-six ratting"></i></li>
-                      <li><i className="fa-solid fa-star fs-six ratting"></i></li>
-                      <li><i className="fa-solid fa-star fs-six ratting"></i></li>
-                    </ul>
+                  <div className="col-md-6 d-flex align-items-center justify-content-center">
+                    <InfoCard />
                   </div>
                 </div>
               </div>
             </div>
           </SwiperSlide>
-
           <SwiperSlide className="swiper-slide">
-            <div className="banner-inner-item hero-images1">
+            <div className="banner-inner-item hero-images3">
               <div className="container z-1 position-relative">
-                <div className="banner-content">
-                  <span className="p2-clr fs-five fw_500 body-font mb-xl-4 mb-3 d-block">Titulo</span>
-                  <h1 className="white fw_700 mb-xl-4 mb-3">
-                    Breve descripcion
-                  </h1>
-                  <p className="white fs-six mb-40">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                    nulla
-                    pariatur occaecat cupidatat
-                  </p>
-                  <div
-                    className="banner-video d-flex flex-sm-nowrap flex-wrap align-items-center gap-xl-4 gap-lg-3 gap-2 mb-60 position-relative">
-                    <Link href="/contact"
-                      className="common-btn sub-font box-style first-box d-inline-flex px-4 justify-content-center align-items-center gap-xxl-2 gap-2 fs18 fw-semibold black2 overflow-hidden white-bg rounded-2">
-                      Mas
-                    </Link>
-                    <div className="d-flex align-items-center gap-3">
-                      <a
-                        onClick={() => setIsVideoOpen(true)}
-                        style={{ cursor: 'pointer' }}
-                        className="video-style p2-bg rounded-circle d-center video-popup">
-                        <i className="fa-solid fa-play fs-six"></i>
-                      </a>
-                      <span className="white fw_600 sub-font">Video</span>
-                    </div>
-
-                    <img src="assets/img/element/hero-element.png" alt="element" className="hero-text-element" />
+                <div className="row">
+                  <div className="col-md-6 d-flex flex-column justify-content-center">
+                    <h1 className="white fw_700 mb-xl-4 mb-3">
+                      Juntos hacemos crecer a México
+                    </h1>
+                    <p className="white fs-four mb-40">
+                      Soluciones de arrendamiento para negocios de todos tamaños en cada rincón del país.
+                    </p>
                   </div>
-                  <div className="d-flex align-items-center gap-3">
-                    <h3 className="white fw_700">4.9 Rating</h3>
-                    <ul className="d-flex align-items-center gap-1">
-                      <li><i className="fa-solid fa-star fs-six ratting"></i></li>
-                      <li><i className="fa-solid fa-star fs-six ratting"></i></li>
-                      <li><i className="fa-solid fa-star fs-six ratting"></i></li>
-                      <li><i className="fa-solid fa-star fs-six ratting"></i></li>
-                      <li><i className="fa-solid fa-star fs-six ratting"></i></li>
-                    </ul>
+                  <div className="col-md-6 d-flex align-items-center justify-content-center">
+                    <InfoCard />
                   </div>
                 </div>
               </div>
@@ -170,7 +130,7 @@ const HeroArea = ({setIsVideoOpen} : any) => {
           </SwiperSlide>
 
         </Swiper>
-        <div className="banner-controller">
+        {/* <div className="banner-controller">
           <div className="swiper-dot text-center">
             <div className="dot"></div>
           </div>
@@ -179,7 +139,7 @@ const HeroArea = ({setIsVideoOpen} : any) => {
             <button className="array-prev"><i className="fa-solid fa-angle-left"></i></button>
             <button className="array-next active"><i className="fa-solid fa-angle-right"></i></button>
           </div>
-        </div>
+        </div> */}
       </section>
 
      

@@ -1,0 +1,19 @@
+.benefit-icon {
+  font-size: 1.5rem;
+  color: #333;
+  width: 30px;
+}
+
+.contact-btn {
+  background-color: #c00;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-weight: bold;
+  font-size: 1rem;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.contact-btn:hover {
+  background-color: #a00;
+}
