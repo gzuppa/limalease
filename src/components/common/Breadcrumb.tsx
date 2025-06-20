@@ -13,8 +13,7 @@ const Breadcrumb = ({ style_2, title, setIsVideoOpen }: any) => {
               <div className="breadcrumbs-content text-center">
                 <h2 className="fw-bold black mb-lg-3 mb-2 wow fadeInUp" data-wow-delay="0.4s">{title}</h2>
                 <p className="pra fs-six wow fadeInUp" data-wow-delay="0.5s">
-                  Enjoy the limitless entertainment possibilities with VR. Witness, play, and explore new
-                  worlds
+                  Tu pago inicial siempre es más bajo que el que te pide un banco o el esquema de financiamiento a plazos de la agencia.
                 </p>
               </div>
             </div>
@@ -30,7 +29,7 @@ const Breadcrumb = ({ style_2, title, setIsVideoOpen }: any) => {
               </div>
               :
 
-              <img src="assets/img/banner/common-thumb.jpg" alt="img" className="w-100 rounded-3" />
+              <img src="assets/img/element/leasing1.jpg" alt="img" className="w-100 rounded-3" />
             }
 
           </div>

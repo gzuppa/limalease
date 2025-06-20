@@ -44,7 +44,7 @@ const Pricing = () => {
           <HeaderOne searchOpen={searchOpen} setSearchOpen={setSearchOpen} />
           <main>
             <BreadcrumbsPricing />
-            <PricingAreaHomeOne />
+            {/* <PricingAreaHomeOne /> */}
             <FaqPricing />
             <CtaAreaHomeOne style_2={true} style_3={true} style_4={true} />
             <FooterOne />

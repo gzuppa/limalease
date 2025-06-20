@@ -18,20 +18,20 @@ const ServiceAreaHomeOne = () => {
           <div className="services-content-wrap">
             <div className="ser-line"></div>
             <div className="service-inner position-relative d-flex align-items-center justify-content-between">
-              <h3 className="black fw-bold visible-slowly-right"><Link href="/service-details" className="black">01/ Servicio 1</Link></h3>
-              <Link href="/service-details" className="arrows-right"><i className="fa-solid fa-arrow-right"></i></Link>
+              <h3 className="black fw-bold visible-slowly-right"><Link href="/about" className="black">01/ Ventajas</Link></h3>
+              <Link href="/about" className="arrows-right"><i className="fa-solid fa-arrow-right"></i></Link>
 
               <img src="assets/img/blog/service-img1.png" alt="img" className="service-hover" />
             </div>
             <div className="ser-line"></div>
             <div className="service-inner position-relative d-flex align-items-center justify-content-between">
-              <h3 className="black fw-bold visible-slowly-right"><Link href="/service-details" className="black">02/ Servicio 2</Link>
+              <h3 className="black fw-bold visible-slowly-right"><Link href="/pricing" className="black">02/ Nosotros</Link>
               </h3>
-              <Link href="/service-details" className="arrows-right"><i className="fa-solid fa-arrow-right"></i></Link>
+              <Link href="/pricing" className="arrows-right"><i className="fa-solid fa-arrow-right"></i></Link>
 
-              <img src="assets/img/blog/service-img2.jpg" alt="img" className="service-hover" />
+              <img src="assets/img/element/leasing3.jpg" alt="img" className="service-hover" />
             </div>
-            <div className="ser-line"></div>
+            {/* <div className="ser-line"></div>
             <div className="service-inner position-relative d-flex align-items-center justify-content-between">
               <h3 className="black fw-bold visible-slowly-right"><Link href="/service-details" className="black">03/ Servicio 3</Link></h3>
               <Link href="/service-details" className="arrows-right"><i className="fa-solid fa-arrow-right"></i></Link>
@@ -52,7 +52,7 @@ const ServiceAreaHomeOne = () => {
               <Link href="/service-details" className="arrows-right"><i className="fa-solid fa-arrow-right"></i></Link>
 
               <img src="assets/img/blog/service-img1.png" alt="img" className="service-hover" />
-            </div>
+            </div> */}
             <div className="ser-line"></div>
 
           </div>

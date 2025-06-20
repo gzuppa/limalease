@@ -8,8 +8,8 @@ import './BeneficiosFirmaCar.css'
 
 const InfoCard = () => {
   return (
-    <div className="container mt-5 p-4 bg-white rounded shadow">
-      <h1 className="fw-bold text-uppercase">Firma Car Auto</h1>
+    <div className="container mt-5 p-7 bg-white rounded shadow">
+      <h2 className="fw-bold">Estrena con nosotros</h2>
       <h4 className="mt-3 mb-4">Beneficios</h4>
 
       <div className="d-flex align-items-start mb-3">

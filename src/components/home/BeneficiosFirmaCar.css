@@ -5,7 +5,7 @@
 }
 
 .contact-btn {
-  background-color: #c00;
+  background-color: rgb(153, 202, 30);
   color: white;
   border: none;
   padding: 12px 24px;
@@ -15,5 +15,5 @@
 }
 
 .contact-btn:hover {
-  background-color: #a00;
+  background-color: rgb(54, 139, 17);
 }

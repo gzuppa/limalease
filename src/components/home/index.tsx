@@ -57,15 +57,15 @@ const HomeOne = () => {
           <HeaderOne searchOpen={searchOpen} setSearchOpen={setSearchOpen} />
           <main>
             <HeroArea setIsVideoOpen={setIsVideoOpen} />
-            <HomeAbout />
+            {/* <HomeAbout /> */}
             {/* <BrandHomeOne /> */}
             <ServiceAreaHomeOne />
             {/* <TestimonialAreaHomeOne /> */}
-            <ChooseAreaHomeOne setIsVideoOpen={setIsVideoOpen} />
-            <PricingAreaHomeOne />
+            {/* <ChooseAreaHomeOne setIsVideoOpen={setIsVideoOpen} />
+            <PricingAreaHomeOne /> */}
             <FaqAreaHomeOne />
-            <CtaAreaHomeOne />
-            <ProjectsAreaHomeOne />
+            {/* <CtaAreaHomeOne />
+            <ProjectsAreaHomeOne /> */}
             <GetinTouchHomeOne />
             {/* <NewsAreaHomeOne /> */}
             <FooterOne />

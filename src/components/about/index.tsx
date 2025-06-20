@@ -50,15 +50,15 @@ const About = () => {
         <div id="smooth-content">
           <HeaderOne searchOpen={searchOpen} setSearchOpen={setSearchOpen} />
           <main>
-            <Breadcrumb title="About Us" />
-            <BrandAbout />
+            <Breadcrumb title="Ventajas" />
+            {/* <BrandAbout /> */}
             <VissionAbout />
             {/* <TestimonialAreaHomeOne /> */}
             {/* <TestimonialAbout /> */}
-            <UseitArea setIsVideoOpen={setIsVideoOpen} />
+            {/* <UseitArea setIsVideoOpen={setIsVideoOpen} /> */}
             {/* <BrandHomeOne /> */}
-            <TeamAreaAbout />
-            <CtaAreaAbout />
+            {/* <TeamAreaAbout />
+            <CtaAreaAbout /> */}
             <FooterOne />
           </main>
         </div>

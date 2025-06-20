@@ -28,20 +28,26 @@ const menu_data:MenuType[] = [
 	},
 	{
 		id: 2,
-		title: "Menu 1",
-		link: "/",
+		title: "Ventajas",
+		link: "/about",
 		has_dropdown: false,
 	},
 	{
 		id: 3,
-		title: "Menu 2",
-		link: "#",
-		has_dropdown: true,
-		sub_menus: [
-			{ link: "/", title: "Submenu 1" },
-			{ link: "/", title: "Submenu 2" },
-		],
+		title: "Nosotros",
+		link: "/pricing",
+		has_dropdown: false,
 	},
+	// {
+	// 	id: 3,
+	// 	title: "Menu 2",
+	// 	link: "#",
+	// 	has_dropdown: true,
+	// 	sub_menus: [
+	// 		{ link: "/", title: "Submenu 1" },
+	// 		{ link: "/", title: "Submenu 2" },
+	// 	],
+	// },
 	{
 		id: 4,
 		title: "Menu 3",

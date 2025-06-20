@@ -10,16 +10,15 @@ const BreadcrumbsPricing = () => {
           <div className="row justify-content-center space-bottom">
             <div className="col-lg-6">
               <div className="breadcrumbs-content text-center">
-                <h2 className="fw-bold black mb-lg-3 mb-2 wow fadeInUp" data-wow-delay="0.4s">Pricing Plans</h2>
-                <p className="pra fs-six wow fadeInUp" data-wow-delay="0.5s">
-                  Enjoy the limitless entertainment possibilities with VR. Witness, play, and explore new
-                  worlds
+                <h2 className="fw-bold black mb-lg-3 mb-2 wow fadeInUp" data-wow-delay="0.4s">Nosotros</h2>
+                <p className="fs-six wow fadeInUp" data-wow-delay="0.5s">
+                  Después de estar en el negocio corporativo durante 25 años, los fundadores de LIMA nos dimos cuenta de que queremos hacer del arrendamiento algo más simple, accesible y también contribuir un poco para mejorar el mundo en el que vivimos.
                 </p>
               </div>
             </div>
           </div>
           <div className="common-thumb">
-            <img src="assets/img/banner/common-thumb.jpg" alt="img" className="w-100 rounded-3" />
+            <img src="assets/img/element/leasing4.jpg" alt="img" className="w-100 rounded-3" />
           </div>
         </div>
       </section>
