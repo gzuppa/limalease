@@ -1,6 +1,7 @@
 
 "use client"
 
+import Link from 'next/link';
 import React from 'react';
 
 
@@ -11,17 +12,45 @@ if(typeof window !== 'undefined') {
 const FaqPricing = () => {
   return (
     <>
-      <section className="faq-section-version2 fix section-padding white-bg">
+      <section className="faq-section-version2 fix white-bg">
         <div className="container">
           <div className="section-title text-center mb-60">
             <h6 className="body-font p1-clr mb-xxl-3 mb-sm-3 mb-2 text-uppercase wow fadeInUp" data-wow-delay=".3s">
               VALORES
             </h6>
             <h4 className="black visible-slowly-right d-block">
-              Este 2025 LIMA entra en una nueva etapa de crecimiento, robusteciendo su inversión en capital, incorporando nuevo talento en todas las áreas, fortaleciendo sus capacidades de fondeo y ampliando su capacidad operativa y de proceso.
-            </h4>
+              Este 2025 LIMEX®  entra en una nueva etapa de crecimiento, robusteciendo su inversión en capital, incorporando nuevo talento en todas las áreas, fortaleciendo sus capacidades de fondeo y ampliando su capacidad operativa y de proceso.            </h4>
           </div>
-          <div className="row g-lg-0 g-4 align-items-center justify-content-lg-between justify-content-center">
+
+          <div className="services-content-wrap mb-60">
+            <div className="ser-line"></div>
+              <div className="service-inner position-relative d-flex align-items-center justify-content-between">
+                <h3 className="black fw-bold visible-slowly-right"><Link href="/about" className="black">01/ Lean</Link></h3>
+                <Link href="/about" className="arrows-right"><i className="fa-solid fa-arrow-right"></i></Link>
+
+                <img src="assets/img/blog/service-img1.png" alt="img" className="service-hover" />
+              </div>
+            <div className="ser-line"></div>
+            <div className="service-inner position-relative d-flex align-items-center justify-content-between">
+              <h3 className="black fw-bold visible-slowly-right"><Link href="/pricing" className="black">02/ Green</Link>
+              </h3>
+              <Link href="/pricing" className="arrows-right"><i className="fa-solid fa-arrow-right"></i></Link>
+
+              <img src="assets/img/element/leasing3.jpg" alt="img" className="service-hover" />
+            </div>
+            <div className="ser-line"></div>
+
+             <div className="service-inner position-relative d-flex align-items-center justify-content-between">
+              <h3 className="black fw-bold visible-slowly-right"><Link href="/pricing" className="black">03/ Lease</Link>
+              </h3>
+              <Link href="/pricing" className="arrows-right"><i className="fa-solid fa-arrow-right"></i></Link>
+
+              <img src="assets/img/element/leasing3.jpg" alt="img" className="service-hover" />
+            </div>
+            <div className="ser-line"></div>
+          </div>
+
+          <div className="row g-lg-0 g-4 align-items-center justify-content-lg-between justify-content-center mt-60">
             <div className="col-lg-5">
               <div className="faq-thumb-version2 rounded-3 reveal-left w-100">
                 <img src="assets/img/element/leasing5.jpeg" alt="img" className="rounded-3 w-100" />

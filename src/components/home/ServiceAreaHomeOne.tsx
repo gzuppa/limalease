@@ -17,12 +17,12 @@ const ServiceAreaHomeOne = () => {
           </div>
           <div className="services-content-wrap">
             <div className="ser-line"></div>
-            <div className="service-inner position-relative d-flex align-items-center justify-content-between">
-              <h3 className="black fw-bold visible-slowly-right"><Link href="/about" className="black">01/ Ventajas</Link></h3>
-              <Link href="/about" className="arrows-right"><i className="fa-solid fa-arrow-right"></i></Link>
+              <div className="service-inner position-relative d-flex align-items-center justify-content-between">
+                <h3 className="black fw-bold visible-slowly-right"><Link href="/about" className="black">01/ Ventajas</Link></h3>
+                <Link href="/about" className="arrows-right"><i className="fa-solid fa-arrow-right"></i></Link>
 
-              <img src="assets/img/blog/service-img1.png" alt="img" className="service-hover" />
-            </div>
+                <img src="assets/img/blog/service-img1.png" alt="img" className="service-hover" />
+              </div>
             <div className="ser-line"></div>
             <div className="service-inner position-relative d-flex align-items-center justify-content-between">
               <h3 className="black fw-bold visible-slowly-right"><Link href="/pricing" className="black">02/ Nosotros</Link>

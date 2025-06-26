@@ -29,7 +29,7 @@ const FaqAreaHomeOne = () => {
                 <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne"
                   data-bs-parent="#accordionExample">
                   <div className="accordion-body">
-                    <p className="pra">Los contratos de Arrendamiento no consideran el pago de intereses, solamente el pago de rentas periódicas por el uso del equipo la cual se determina en función del tipo de equipo, su vida útil, el desgaste y su ubicación entre  otros factores.</p>
+                    <p className="pra">Los contratos de Arrendamiento no consideran el pago de intereses, solamente el pago de rentas periódicas por el uso del equipo la cual se determina en función del tipo de equipo, su vida útil, el desgaste y su ubicación entre otros factores.</p>
                   </div>
                 </div>
               </div>
@@ -38,12 +38,12 @@ const FaqAreaHomeOne = () => {
               <div className="accordion-header" id="headingTwo">
                 <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                   data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                  ¿Qué pasa con mi automóvil al finalizar el contrato de renta?
+                  ¿Qué pasa con mi equipo al finalizar el contrato de renta?
                 </button>
                 <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo"
                   data-bs-parent="#accordionExample">
                   <div className="accordion-body">
-                    <p className="pra">Puedes devolver el auto a Limex Lease, comprarlo o extender tu contrato de renta por un período adicional.</p>
+                    <p className="pra">Puedes devolver el equipo a LIMEX®, comprarlo o extender tu contrato de renta por un período adicional.</p>
                   </div>
                 </div>
               </div>
@@ -57,7 +57,7 @@ const FaqAreaHomeOne = () => {
                 <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree"
                   data-bs-parent="#accordionExample">
                   <div className="accordion-body">
-                    <p className="pra">Usualmente el pago de 1 renta en garantía, 1 renta anticipada y una comisión de apertura igual o menor al 2.0% del valor del auto.</p>
+                    <p className="pra">Usualmente el pago de 1 renta en garantía, 1 renta anticipada y una baja comisión de apertura</p>
                   </div>
                 </div>
               </div>
@@ -66,12 +66,12 @@ const FaqAreaHomeOne = () => {
               <div className="accordion-header" id="headingfour">
                 <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                   data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
-                  ¿De quién es el automóvil?
+                  ¿De quién es el equipo?
                 </button>
                 <div id="collapsefour" className="accordion-collapse collapse" aria-labelledby="headingfour"
                   data-bs-parent="#accordionExample">
                   <div className="accordion-body">
-                    <p className="pra">En un contrato de Arrendamiento  el auto es de Limex Lease  y el usuario de ese equipo por el tiempo contratado eres tú como nuestro cliente, esto implica que su buen uso y mantenimiento son responsabilidad tuya, si decides comprarlo al final se factura de acuerdo al precio acordado.</p>
+                    <p className="pra">En un contrato de Arrendamiento el equipo  es de LIMEX y el usuario de ese equipo por el tiempo contratado eres tú como nuestro cliente, esto implica que su buen uso y mantenimiento son responsabilidad tuya, si decides comprarlo al final se factura de acuerdo al precio acordado.</p>
                   </div>
                 </div>
               </div>
@@ -85,12 +85,12 @@ const FaqAreaHomeOne = () => {
                 <div id="collapsefive" className="accordion-collapse collapse" aria-labelledby="headingfive"
                   data-bs-parent="#accordionExample">
                   <div className="accordion-body">
-                    <p className="pra">Camionetas, camiones de reparto, motocicletas, equipo de transporte de personal, flotillas, tecnología, maquinaria industrial, maquinaria agrícola.</p>
+                    <p className="pra">Ofrecemos maquinaria, equipo médico, vehículos y maquinaria agrícola, con contratos flexibles y sin inversión inicial. Nuestros equipos están en perfectas condiciones, con mantenimiento incluido y soporte técnico, para que puedas reducir costos y mejorar tu productividad de manera sencilla y confiable.</p>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="accordion-item wow fadeInUp" data-wow-delay="0.6s">
+            {/* <div className="accordion-item wow fadeInUp" data-wow-delay="0.6s">
               <div className="accordion-header" id="headingsix">
                 <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                   data-bs-target="#collapsesix" aria-expanded="false" aria-controls="collapsesix">
@@ -104,7 +104,7 @@ const FaqAreaHomeOne = () => {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>

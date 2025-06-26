@@ -14,7 +14,7 @@ const InfoCard = () => {
 
       <div className="d-flex align-items-start mb-3">
         <i className="fa-regular fa-clock benefit-icon mt-1"></i>
-        <p className="ms-3 mb-0">Tiempos de respuesta en 24 horas</p>
+        <p className="ms-3 mb-0">Tiempos de respuesta en 48 horas</p>
       </div>
 
       <div className="d-flex align-items-start mb-3">

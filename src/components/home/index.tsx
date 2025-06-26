@@ -59,11 +59,11 @@ const HomeOne = () => {
             <HeroArea setIsVideoOpen={setIsVideoOpen} />
             {/* <HomeAbout /> */}
             {/* <BrandHomeOne /> */}
-            <ServiceAreaHomeOne />
+            {/* <ServiceAreaHomeOne /> */}
             {/* <TestimonialAreaHomeOne /> */}
             {/* <ChooseAreaHomeOne setIsVideoOpen={setIsVideoOpen} />
             <PricingAreaHomeOne /> */}
-            <FaqAreaHomeOne />
+            {/* <FaqAreaHomeOne /> */}
             {/* <CtaAreaHomeOne />
             <ProjectsAreaHomeOne /> */}
             <GetinTouchHomeOne />

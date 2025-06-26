@@ -34,9 +34,13 @@ const menu_data:MenuType[] = [
 	},
 	{
 		id: 3,
-		title: "Nosotros",
-		link: "/pricing",
-		has_dropdown: false,
+		title: "Productos",
+		link: "#",
+		has_dropdown: true,
+		sub_menus: [
+			{ link: "/pricing", title: "Productos" },
+			{ link: "/faqs", title: "FAQ" }
+		],
 	},
 	// {
 	// 	id: 3,

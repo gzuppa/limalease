@@ -45,12 +45,12 @@ const Faqs = () => {
         <div id="smooth-content">
           <HeaderOne searchOpen={searchOpen} setSearchOpen={setSearchOpen} />
           <main>
-            <BreadcrumbsFaq />
-            <HelpingArea />
-            <FaqPricing />
+            {/* <BreadcrumbsFaq /> */}
+            {/* <HelpingArea />
+            <FaqPricing /> */}
             <FaqAreaHomeOne />
-            <CtaAreaHomeOne style_2={true} style_3={true} />
-            <GetinTouchHomeOne />
+            {/* <CtaAreaHomeOne style_2={true} style_3={true} /> */}
+            {/* <GetinTouchHomeOne /> */}
             <FooterOne />
           </main>
         </div>

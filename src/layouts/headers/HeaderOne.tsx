@@ -53,8 +53,7 @@ const HeaderOne = ({ searchOpen, setSearchOpen }: any) => {
           <div className="mega-menu-wrapper">
             <div className="header-main">
               <Link href="/" className="header-logo">
-                {/* <img src="assets/img/logo/logo.png" alt="logo-img" /> */}
-                Aqui el logo
+                <img src="assets/img/logo/limalogo.png" alt="logo-img" />
               </Link>
               <div className="mean__menu-wrapper d-none d-xl-block">
                 <div className="main-menu">

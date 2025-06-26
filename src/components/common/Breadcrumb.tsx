@@ -13,13 +13,13 @@ const Breadcrumb = ({ style_2, title, setIsVideoOpen }: any) => {
               <div className="breadcrumbs-content text-center">
                 <h2 className="fw-bold black mb-lg-3 mb-2 wow fadeInUp" data-wow-delay="0.4s">{title}</h2>
                 <p className="pra fs-six wow fadeInUp" data-wow-delay="0.5s">
-                  Tu pago inicial siempre es más bajo que el que te pide un banco o el esquema de financiamiento a plazos de la agencia.
+                  {/* Tu pago inicial siempre es más bajo que el que te pide un banco o el esquema de financiamiento a plazos de la agencia. */}
                 </p>
               </div>
             </div>
           </div>
           <div className="common-thumb">
-            {style_2 ?
+            {/* {style_2 ?
               <div className="play-thumb w-100 position-relative d-center rounded-3">
                 <img src="assets/img/about/service-bg.jpg" alt="img" className="w-100 rounded-2" />
                 <a
@@ -30,7 +30,7 @@ const Breadcrumb = ({ style_2, title, setIsVideoOpen }: any) => {
               :
 
               <img src="assets/img/element/leasing1.jpg" alt="img" className="w-100 rounded-3" />
-            }
+            } */}
 
           </div>
 
