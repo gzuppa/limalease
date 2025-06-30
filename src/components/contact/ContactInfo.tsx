@@ -13,10 +13,9 @@ const ContactInfo = () => {
                 <div className="icon black-bg rounded-2 d-center"><img src="assets/img/icon/location-icon.png"
                   alt="img" /></div>
                 <div className="cont">
-                  <h4 className="black fw-bold mb-2 visible-slowly-bottom">Our Address</h4>
+                  <h4 className="black fw-bold mb-2 visible-slowly-bottom">Dirección</h4>
                   <p className="pra fs-seven">
-                    121 W 27th Street, Office 48
-                    New York, NY, USA 10001
+                    Blvd. Manuel Ávila Camacho 40, Lomas de Chapultepec III Secc, Miguel Hidalgo, 11000, CDMX
                   </p>
                 </div>
               </div>
@@ -26,11 +25,11 @@ const ContactInfo = () => {
                 <div className="icon black-bg rounded-2 d-center"><img src="assets/img/icon/phone-icon.png"
                   alt="img" /></div>
                 <div className="cont">
-                  <h4 className="black fw-bold mb-2 visible-slowly-bottom">Contact Info</h4>
+                  <h4 className="black fw-bold mb-2 visible-slowly-bottom">Teléfono</h4>
                   <p className="pra fs-seven">
-                    Open a chat or give us call at
+                    Estamos disponibles en el siguiente número 
                   </p>
-                  <a href="#" className="p1-clr fw-semibold">+1 (234) 567 890</a>
+                  <a href="#" className="p1-clr fw-semibold">55 7938 5984</a>
                 </div>
               </div>
             </div>
@@ -39,11 +38,11 @@ const ContactInfo = () => {
                 <div className="icon black-bg rounded-2 d-center"><img src="assets/img/icon/mail-icon.png"
                   alt="img" /></div>
                 <div className="cont">
-                  <h4 className="black fw-bold mb-2 visible-slowly-bottom">Live Support</h4>
+                  <h4 className="black fw-bold mb-2 visible-slowly-bottom">Soporte por correo</h4>
                   <p className="pra fs-seven">
-                    live chat service
+                    Escríbenos, estamos para ayudarte
                   </p>
-                  <a href="#" className="p1-clr fw-semibold">www.janolivechat.com</a>
+                  <a href="#" className="p1-clr fw-semibold">contacto@limexleasing.mx</a>
                 </div>
               </div>
             </div>

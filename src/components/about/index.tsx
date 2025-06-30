@@ -11,6 +11,8 @@ import Breadcrumb from '../common/Breadcrumb';
 import BrandHomeOne from '../home/BrandHomeOne';
 import HeaderOne from '@/layouts/headers/HeaderOne';
 import FooterOne from '@/layouts/footers/FooterOne'; 
+import BreadcrumbsPricing from '../common/BreadcrumbsPricing';
+import FaqPricing from '../pricing/FaqPricing';
 
 // use gsap 
 import gsap from "gsap";
@@ -50,9 +52,11 @@ const About = () => {
         <div id="smooth-content">
           <HeaderOne searchOpen={searchOpen} setSearchOpen={setSearchOpen} />
           <main>
-            <Breadcrumb title="Ventajas" />
+            {/* <Breadcrumb title="Ventajas" /> */}
+            <BreadcrumbsPricing />
+            <FaqPricing />
             {/* <BrandAbout /> */}
-            <VissionAbout />
+            {/* <VissionAbout /> */}
             {/* <TestimonialAreaHomeOne /> */}
             {/* <TestimonialAbout /> */}
             {/* <UseitArea setIsVideoOpen={setIsVideoOpen} /> */}

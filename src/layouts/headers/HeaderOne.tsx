@@ -72,7 +72,7 @@ const HeaderOne = ({ searchOpen, setSearchOpen }: any) => {
                                   <div className="homemenu-items">
                                     <div className="homemenu">
                                       <Link href="/" className="homemenu-thumb d-center">
-                                        <img src="assets/img/banner/home1-vr.png" alt="img" />
+                                        <img src="assets/img/element/home-thumbnail.png" alt="img" />
                                         <span className="demo-button d-center py-3 px-4 p1-bg">
                                           <span className="white">Home One</span>
                                         </span>
@@ -100,12 +100,12 @@ const HeaderOne = ({ searchOpen, setSearchOpen }: any) => {
                 </div>
               </div>
               <div className="header-right d-flex justify-content-end align-items-center">
-                <a href="#" className="call-icon"><i className="fa-solid fa-phone"></i> <span
-                  className="d-md-block d-none">(+52) 55 555 555</span></a>
-                <a style={{ cursor: "pointer" }} onClick={() => setSearchOpen(!searchOpen)} className="search-trigger search-icon"><i className="fa-solid fa-magnifying-glass"></i></a>
+                {/* <a href="#" className="call-icon"><i className="fa-solid fa-phone"></i> <span
+                  className="d-md-block d-none">(+52) 55 555 555</span></a> */}
+                {/* <a style={{ cursor: "pointer" }} onClick={() => setSearchOpen(!searchOpen)} className="search-trigger search-icon"><i className="fa-solid fa-magnifying-glass"></i></a> */}
                 <Link href="/contact"
                   className="common-btn box-style first-box d-inline-flex justify-content-center align-items-center gap-xxl-2 gap-2 fs18 fw-semibold white overflow-hidden p1-bg rounded-2 d-sm-flex d-none">
-                  <span className="d-md-block d-none">Botón</span>  <span
+                  <span className="d-md-block d-none">Contacto</span>  <span
                     className="d-md-block d-none"></span>
                 </Link>
                 <div className="header__hamburger my-auto">

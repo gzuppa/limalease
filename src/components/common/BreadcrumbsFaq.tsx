@@ -10,15 +10,12 @@ const BreadcrumbsFaq = () => {
             <div className="col-lg-6">
               <div className="breadcrumbs-content text-center">
                 <h2 className="fw-bold black mb-lg-3 mb-2 wow fadeInUp" data-wow-delay="0.4s">Preguntas frecuentes</h2>
-                <p className="black pra fs-six wow fadeInUp" data-wow-delay="0.5s">
+                {/* <p className="black pra fs-six wow fadeInUp" data-wow-delay="0.5s">
                   j
-                </p>
+                </p> */}
               </div>
             </div>
           </div>
-          {/* <div className="common-thumb">
-            <img src="assets/img/banner/common-thumb.jpg" alt="img" className="w-100 rounded-3" />
-          </div> */}
         </div>
       </section>
     </>

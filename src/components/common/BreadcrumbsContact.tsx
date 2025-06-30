@@ -5,23 +5,15 @@ import React from 'react';
 const BreadcrumbsContact = () => {
   return (
     <>
-      <section className="banner-breadcrumbs position-relative space-top">
-        <div className="container">
-          <div className="row justify-content-center space-bottom">
-            <div className="col-lg-6">
-              <div className="breadcrumbs-content text-center">
-                <h2 className="fw-bold black mb-lg-3 mb-2 wow fadeInUp" data-wow-delay="0.4s">Contact Us</h2>
-                <p className="pra fs-six wow fadeInUp" data-wow-delay="0.5s">
-                  Enjoy the limitless entertainment possibilities with VR. Witness, play, and explore new
-                  worlds
-                </p>
-              </div>
-            </div>
+      <section className="position-relative pt-20">
+        <div className="section-title text-center mb-60">
+            {/* <h6 className="body-font p1-clr mb-xxl-3 mb-sm-3 mb-2 text-uppercase wow fadeInUp" data-wow-delay=".3s">
+              FAQ
+            </h6> */}
+            <h2 className="black visible-slowly-right fw-bold d-block">
+              Contacto
+            </h2>
           </div>
-          <div className="common-thumb">
-            <img src="assets/img/banner/common-thumb.jpg" alt="img" className="w-100 rounded-3" />
-          </div>
-        </div>
       </section>
     </>
   );

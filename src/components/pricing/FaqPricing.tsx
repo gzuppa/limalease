@@ -14,7 +14,7 @@ const FaqPricing = () => {
     <>
       <section className="faq-section-version2 fix white-bg">
         <div className="container">
-          <div className="section-title text-center mb-60">
+          <div className="section-title text-center mb-60 pb-20">
             <h6 className="body-font p1-clr mb-xxl-3 mb-sm-3 mb-2 text-uppercase wow fadeInUp" data-wow-delay=".3s">
               VALORES
             </h6>
@@ -28,7 +28,7 @@ const FaqPricing = () => {
                 <h3 className="black fw-bold visible-slowly-right"><Link href="/about" className="black">01/ Lean</Link></h3>
                 <Link href="/about" className="arrows-right"><i className="fa-solid fa-arrow-right"></i></Link>
 
-                <img src="assets/img/blog/service-img1.png" alt="img" className="service-hover" />
+                <img src="assets/img/element/sustentability.jpg" alt="img" className="service-hover" />
               </div>
             <div className="ser-line"></div>
             <div className="service-inner position-relative d-flex align-items-center justify-content-between">
@@ -36,7 +36,7 @@ const FaqPricing = () => {
               </h3>
               <Link href="/pricing" className="arrows-right"><i className="fa-solid fa-arrow-right"></i></Link>
 
-              <img src="assets/img/element/leasing3.jpg" alt="img" className="service-hover" />
+              <img src="assets/img/element/sustentability2.jpg" alt="img" className="service-hover" />
             </div>
             <div className="ser-line"></div>
 
@@ -45,7 +45,7 @@ const FaqPricing = () => {
               </h3>
               <Link href="/pricing" className="arrows-right"><i className="fa-solid fa-arrow-right"></i></Link>
 
-              <img src="assets/img/element/leasing3.jpg" alt="img" className="service-hover" />
+              <img src="assets/img/element/sustentability3.jpg" alt="img" className="service-hover" />
             </div>
             <div className="ser-line"></div>
           </div>
