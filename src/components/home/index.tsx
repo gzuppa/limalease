@@ -15,6 +15,8 @@ import GetinTouchHomeOne from './GetinTouchHomeOne';
 import NewsAreaHomeOne from './NewsAreaHomeOne';
 import FooterOne from '@/layouts/footers/FooterOne';
 import VissionAbout from '../about/VissionAbout';
+import BreadcrumbsService from '../common/BreadcrumbsService';
+import ServiceArea from '../Service/ServiceArea';
 
 // use gsap 
 import gsap from "gsap";
@@ -58,11 +60,13 @@ const HomeOne = () => {
           <HeaderOne searchOpen={searchOpen} setSearchOpen={setSearchOpen} />
           <main>
             <HeroArea setIsVideoOpen={setIsVideoOpen} />
-            <VissionAbout />
+            <BreadcrumbsService />
+            <ServiceArea />
+            {/* <VissionAbout /> */}
             {/* <HomeAbout />
             <BrandHomeOne />
             <ServiceAreaHomeOne /> */}
-            <TestimonialAreaHomeOne />
+            {/* <TestimonialAreaHomeOne /> */}
             {/* <ChooseAreaHomeOne setIsVideoOpen={setIsVideoOpen} />
             <PricingAreaHomeOne />
             <FaqAreaHomeOne />

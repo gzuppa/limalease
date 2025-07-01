@@ -38,7 +38,7 @@ const menu_data:MenuType[] = [
 		link: "#",
 		has_dropdown: true,
 		sub_menus: [
-			{ link: "/", title: "Productos" },
+			{ link: "/blog", title: "Productos" },
 			{ link: "/faqs", title: "FAQ" }
 		],
 	},

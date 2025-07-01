@@ -1,12 +1,37 @@
 
 
-import React from 'react';
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 
 const ContactArea = () => {
+
+  const form = useRef();
+
+  const sendEmail = (e: { preventDefault: () => void; }) => {
+    e.preventDefault();
+    emailjs
+      .sendForm(
+        'limex_mail',
+        'limex_contact',
+        form.current!,
+        'eviTS58gEqDf_KsRM'
+      )
+      .then(
+        (result) => {
+          alert('message sent successfully...');
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
+  
   return (
     <>
       <section className="getin-touch section-padding cmnbg-bg">
         <div className="container position-relative">
+          <form onSubmit={sendEmail}>
           <div className="getin-touch-wrap white-bg rounded-2 position-relative">
             <div className="row g-4 align-items-center">
               <div className="col-lg-6">
@@ -49,6 +74,7 @@ const ContactArea = () => {
             </div>
 
           </div>
+          </form>
           {/* <img src="assets/img/element/get-shape.png" alt="img" className="get-shape" /> */}
           <img src="assets/img/element/get-elment.png" alt="img" className="get-element" />
         </div>

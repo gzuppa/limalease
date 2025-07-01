@@ -16,6 +16,7 @@ import {
 } from "@/plugins";
 import BlogBreadcrumbs from './BlogBreadcrumbs';
 import BlogArea from './BlogArea';
+import VissionAbout from '../about/VissionAbout';
 import { useState } from 'react';
 import SearchOffcanvas from '../common/SearchOffcanvas';
 gsap.registerPlugin(ScrollSmoother, ScrollTrigger, ScrollToPlugin, SplitText);
@@ -43,6 +44,7 @@ const Blog = () => {
           <main>
             <BlogBreadcrumbs />
             <BlogArea />
+            <VissionAbout />
             <FooterOne />
           </main>
         </div>

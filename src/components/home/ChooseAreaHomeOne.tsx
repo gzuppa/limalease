@@ -7,14 +7,14 @@ const ChooseAreaHomeOne = ({ style_2, style_3, setIsVideoOpen }: any) => {
 
   return (
     <>
-      <section className={`choose-section position-relative fix section-padding ${style_3 && "section-bg"} ${style_2 ? '' : 'choose-bg-adding'}`}>
+      <section className={`choose-section position-relative fix section-padding `}>
       <div className="container">
           <div className="section-title text-center mb-60">
             <h6 className="body-font p1-clr mb-xxl-3 mb-sm-3 mb-2 text-uppercase wow fadeInUp" data-wow-delay=".3s">
-              Titulo
+              Nuestros beneficios
             </h6>
             <h2 className="black visible-slowly-right fw-bold d-block">
-              Descripcion <br />
+              Ventajas financieras y fiscales <br />
               
             </h2>
           </div>
@@ -23,18 +23,16 @@ const ChooseAreaHomeOne = ({ style_2, style_3, setIsVideoOpen }: any) => {
               <div className="icon black-bg d-center rounded-circle"><img src="assets/img/icon/settings.png"
                 alt="icon" /></div>
               <h4 className="black fw-bold visible-slowly-right"><Link href="/service-details" className="black">Item 1</Link></h4>
-              <p className="pra fs-seven fadeInUp">There are many variations passages the majority have
-                suffered</p>
-              <Link href="/service-details" className="sub-font red">Mas</Link>
+              <p className="pra fs-seven fadeInUp">Conserva Capital de Trabajo para otros usos</p>
+              {/* <Link href="/service-details" className="sub-font red">Mas</Link> */}
             </div>
             <div className="choose-line"></div>
             <div className="choose-item text-center">
               <div className="icon black-bg d-center rounded-circle"><img src="assets/img/icon/technology.png"
                 alt="icon" /></div>
               <h4 className="black fw-bold visible-slowly-right"><Link href="/service-details" className="black">Item 2</Link></h4>
-              <p className="pra fs-seven fadeInUp">There are many variations passages the majority have
-                suffered</p>
-              <Link href="/service-details" className="sub-font red">Mas</Link>
+              <p className="pra fs-seven fadeInUp">Pago inicial muy accesible</p>
+              {/* <Link href="/service-details" className="sub-font red">Mas</Link> */}
             </div>
             <div className="choose-line"></div>
             <div className="choose-item text-center">
@@ -43,7 +41,7 @@ const ChooseAreaHomeOne = ({ style_2, style_3, setIsVideoOpen }: any) => {
               <h4 className="black fw-bold visible-slowly-right"><Link href="/service-details" className="black">Item 3</Link></h4>
               <p className="pra fs-seven fadeInUp">There are many variations passages the majority have
                 suffered</p>
-              <Link href="/service-details" className="sub-font red">Mas</Link>
+              {/* <Link href="/service-details" className="sub-font red">Mas</Link> */}
             </div>
             <div className="choose-line"></div>
             <div className="choose-item text-center">
@@ -52,7 +50,7 @@ const ChooseAreaHomeOne = ({ style_2, style_3, setIsVideoOpen }: any) => {
               <h4 className="black fw-bold visible-slowly-right"><Link href="/service-details" className="black">Item 4</Link></h4>
               <p className="pra fs-seven fadeInUp">There are many variations passages the majority have
                 suffered</p>
-              <Link href="/service-details" className="sub-font red">Mas</Link>
+              {/* <Link href="/service-details" className="sub-font red">Mas</Link> */}
             </div>
           </div>
           {/* {style_2 ? null :

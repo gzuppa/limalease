@@ -5,7 +5,7 @@ import React from 'react';
 const VissionAbout = () => {
   return (
     <>
-      <section className="contact-info-section fix section-padding">
+      <section className="contact-info-section fix mb-20">
         <div className="container">
           <div className="section-title mb-xxl-5 mb-4 text-center">
             <h4 className="black visible-slowly-right fw-bold d-block">

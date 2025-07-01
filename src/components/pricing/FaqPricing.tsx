@@ -22,7 +22,7 @@ const FaqPricing = () => {
               Este 2025 LIMEX®  entra en una nueva etapa de crecimiento, robusteciendo su inversión en capital, incorporando nuevo talento en todas las áreas, fortaleciendo sus capacidades de fondeo y ampliando su capacidad operativa y de proceso.            </h4>
           </div>
 
-          <div className="services-content-wrap mb-60">
+          {/* <div className="services-content-wrap mb-60">
             <div className="ser-line"></div>
               <div className="service-inner position-relative d-flex align-items-center justify-content-between">
                 <h3 className="black fw-bold visible-slowly-right"><Link href="/about" className="black">01/ Lean</Link></h3>
@@ -48,7 +48,7 @@ const FaqPricing = () => {
               <img src="assets/img/element/sustentability3.jpg" alt="img" className="service-hover" />
             </div>
             <div className="ser-line"></div>
-          </div>
+          </div> */}
 
           <div className="row g-lg-0 g-4 align-items-center justify-content-lg-between justify-content-center mt-60">
             <div className="col-lg-5">

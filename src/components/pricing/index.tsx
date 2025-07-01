@@ -22,6 +22,7 @@ import FaqPricing from './FaqPricing';
 import CtaAreaHomeOne from '../home/CtaAreaHomeOne';
 import { useState } from 'react';
 import SearchOffcanvas from '../common/SearchOffcanvas';
+import VissionAbout from '../about/VissionAbout';
 gsap.registerPlugin(ScrollSmoother, ScrollTrigger, ScrollToPlugin, SplitText);
 
 
@@ -47,6 +48,7 @@ const Pricing = () => {
             {/* <PricingAreaHomeOne /> */}
             <FaqPricing />
             <CtaAreaHomeOne style_2={true} style_3={true} style_4={true} />
+            {/* <VissionAbout /> */}
             <FooterOne />
           </main>
         </div>
