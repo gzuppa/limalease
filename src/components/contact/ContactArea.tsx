@@ -1,13 +1,21 @@
 
 
-import React, { useRef } from 'react';
-import emailjs from '@emailjs/browser';
+import React, { useRef, useState } from 'react';
+import emailjs from "@emailjs/browser";
+import Select from "react-select";
+// import { LoadingButton } from "@mui/lab";
 
 const ContactArea = () => {
 
-  const form = useRef();
+  const form = useRef<HTMLFormElement>(null);
+  const [isLoading, setIsLoading] = useState(false);
+
+  const relocate = () => {
+    window.location.href = "/";
+  };
 
   const sendEmail = (e: { preventDefault: () => void; }) => {
+    setIsLoading(true);
     e.preventDefault();
     emailjs
       .sendForm(
@@ -18,20 +26,29 @@ const ContactArea = () => {
       )
       .then(
         (result) => {
-          alert('message sent successfully...');
+          alert("Mensaje enviado correctamente");
+          setIsLoading(false);
+          relocate();
           console.log(result.text);
         },
         (error) => {
           console.log(error.text);
-        }
+        },
       );
   };
+
+  const options = [
+    { value: "Autos", label: "Autos" },
+    { value: "Flotilla", label: "Flotilla" },
+    { value: "Equipo médico", label: "Equipo médico" },
+    { value: "Equipo agrónomo", label: "Equipo agrónomo" },
+  ];
   
   return (
     <>
       <section className="getin-touch section-padding cmnbg-bg">
         <div className="container position-relative">
-          <form onSubmit={sendEmail}>
+          <form ref={form} onSubmit={sendEmail}>
           <div className="getin-touch-wrap white-bg rounded-2 position-relative">
             <div className="row g-4 align-items-center">
               <div className="col-lg-6">
@@ -52,19 +69,35 @@ const ContactArea = () => {
               <div className="col-lg-6 get-in-touch wow fadeInUp" data-wow-delay="0.4s">
                 <div className="row g-xxl-4 g-3">
                   <div className="col-lg-12">
-                    <input type="text" placeholder="Tu nombre" />
+                    <input type="text" placeholder="Tu nombre" id="user_name" name='user_name'/>
                   </div>
                   <div className="col-lg-6">
-                    <input type="email" placeholder="Tu email" />
+                    <input type="email" placeholder="Tu email" id="user_email" name='user_email'/>
                   </div>
                   <div className="col-lg-6">
                     <input type="text" placeholder="Tu teléfono" />
                   </div>
-                  <div className="col-lg-12">
-                    <textarea name="get-intouch" rows={5} placeholder="¿Como podemos ayudarte?"></textarea>
+                  <div>
+                    <Select
+                      name="product"
+                      className="rounded border border-gray-500"
+                      placeholder={"Producto de interés"}
+                      options={options}
+                    />
                   </div>
                   <div className="col-lg-12">
-                    <button type="button"
+                    <textarea rows={5} placeholder="¿Como podemos ayudarte?" id='message' name='message'></textarea>
+                  </div>
+                  <div className="col-lg-12">
+                    {/* <LoadingButton
+                    loading={isLoading}
+                    type="submit"
+                    value="Send"
+                    className="common-btn w-100 box-style first-box d-inline-flex justify-content-center align-items-center gap-xxl-2 gap-2 fs18 fw-semibold white overflow-hidden p1-bg rounded-2"
+                  >
+                    Enviar
+                  </LoadingButton> */}
+                    <button type="submit" value='Send'
                       className="common-btn w-100 box-style first-box d-inline-flex justify-content-center align-items-center gap-xxl-2 gap-2 fs18 fw-semibold white overflow-hidden p1-bg rounded-2">
                       Enviar
                     </button>
