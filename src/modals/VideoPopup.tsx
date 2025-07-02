@@ -9,13 +9,13 @@ const VideoPopup = ({
 }:any ) => {
   return (
     <>
-      <ModalVideo
+      {/* <ModalVideo
         channel="youtube"
         // autoplay
         isOpen={isVideoOpen}
         videoId={videoId}
         onClose={() => setIsVideoOpen(false)}
-      />
+      /> */}
     </>
   );
 };
