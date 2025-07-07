@@ -15,9 +15,9 @@ const FaqPricing = () => {
       <section className="faq-section-version2 fix white-bg">
         <div className="container">
           <div className="section-title text-center mb-60 pb-20">
-            <h6 className="body-font p1-clr mb-xxl-3 mb-sm-3 mb-2 text-uppercase wow fadeInUp" data-wow-delay=".3s">
+            {/* <h6 className="body-font p1-clr mb-xxl-3 mb-sm-3 mb-2 text-uppercase wow fadeInUp" data-wow-delay=".3s">
               VALORES
-            </h6>
+            </h6> */}
             <h4 className="black visible-slowly-right d-block">
               Este 2025 LIMEX®  entra en una nueva etapa de crecimiento, robusteciendo su inversión en capital, incorporando nuevo talento en todas las áreas, fortaleciendo sus capacidades de fondeo y ampliando su capacidad operativa y de proceso.            </h4>
           </div>

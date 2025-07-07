@@ -55,25 +55,25 @@ const BrandAbout = () => {
                 }}
                 className="swiper-wrapper">
                 <SwiperSlide className="swiper-slide">
-                  <div className="banner-image"><img src="assets/img/icon/brnd-logo.png" alt="icon" /></div>
+                  <div className="banner-image"><img src="assets/img/icon/limalogo.png" alt="icon" /></div>
                 </SwiperSlide>
                 <SwiperSlide className="swiper-slide">
-                  <div className="banner-image"><img src="assets/img/icon/brnd-logo.png" alt="icon" /></div>
+                  <div className="banner-image"><img src="assets/img/icon/limalogo.png" alt="icon" /></div>
                 </SwiperSlide>
                 <SwiperSlide className="swiper-slide">
-                  <div className="banner-image"><img src="assets/img/icon/brnd-logo.png" alt="icon" /></div>
+                  <div className="banner-image"><img src="assets/img/icon/limalogo.png" alt="icon" /></div>
                 </SwiperSlide>
                 <SwiperSlide className="swiper-slide">
-                  <div className="banner-image"><img src="assets/img/icon/brnd-logo.png" alt="icon" /></div>
+                  <div className="banner-image"><img src="assets/img/icon/limalogo.png" alt="icon" /></div>
                 </SwiperSlide>
                 <SwiperSlide className="swiper-slide">
-                  <div className="banner-image"><img src="assets/img/icon/brnd-logo.png" alt="icon" /></div>
+                  <div className="banner-image"><img src="assets/img/icon/limalogo.png" alt="icon" /></div>
                 </SwiperSlide>
                 <SwiperSlide className="swiper-slide">
-                  <div className="banner-image"><img src="assets/img/icon/brnd-logo.png" alt="icon" /></div>
+                  <div className="banner-image"><img src="assets/img/icon/limalogo.png" alt="icon" /></div>
                 </SwiperSlide>
                 <SwiperSlide className="swiper-slide">
-                  <div className="banner-image"><img src="assets/img/icon/brnd-logo.png" alt="icon" /></div>
+                  <div className="banner-image"><img src="assets/img/icon/limalogo.png" alt="icon" /></div>
                 </SwiperSlide>
               </Swiper>
               <div className="partner-btn-inner d-flex align-items-center mt-60">

@@ -9,11 +9,11 @@ const Offcanvas = ({open, toggleSidebar} :any) => {
     <> 
       <div className="fix-area">
         <div className={`offcanvas__info ${open ? 'info-open' : ''}`}>
-          <div className="offcanvas__wrapper">
+          <div className="offcanvas__wrapper mt-60">
             <div className="offcanvas__content">
               <div className="offcanvas__top mb-4 d-flex justify-content-between align-items-center">
                 <Link href="/" className="offcanvas__logo">
-                  <img src="assets/img/logo/logo.png" alt="logo-img" />
+                  <img src="assets/img/logo/limalogo.png" alt="logo-img" />
                 </Link>
                 <div className="offcanvas__close" onClick={toggleSidebar}>
                   <button>
@@ -32,7 +32,7 @@ const Offcanvas = ({open, toggleSidebar} :any) => {
                       <i className="fal fa-map-marker-alt fs-five"></i>
                     </div>
                     <div className="offcanvas__contact-text">
-                      <a target="_blank" href="#" className="fs-eight">Dirección</a>
+                      <a target="_blank" href="https://maps.app.goo.gl/rjKvJNmy5XfGhzWX7" className="fs-eight">Blvd. Manuel Ávila Camacho 40, Lomas de Chapultepec III Secc, Miguel Hidalgo, 11000, CDMX</a>
                     </div>
                   </li>
                   <li className="d-flex align-items-center">
@@ -40,7 +40,7 @@ const Offcanvas = ({open, toggleSidebar} :any) => {
                       <i className="far fa-phone"></i>
                     </div>
                     <div className="offcanvas__contact-text">
-                      <a href="tel:+11002345909">+52 (55) 55555555</a>
+                      <a href="tel:+11002345909">+52 55 7938 5984</a>
                     </div>
                   </li>
                   <li className="d-flex align-items-center">
@@ -49,23 +49,23 @@ const Offcanvas = ({open, toggleSidebar} :any) => {
                     </div>
                     <div className="offcanvas__contact-text">
                       <a href="mailto:info@example.com"><span
-                        className="mailto:info@example.com">example@example.com</span></a>
+                        className="mailto:info@example.com">contacto@limexleasing.mx</span></a>
                     </div>
                   </li>
                   <li className="d-flex align-items-center">
-                    <div className="offcanvas__contact-icon mr-15">
+                    {/* <div className="offcanvas__contact-icon mr-15">
                       <i className="fal fa-clock"></i>
-                    </div>
-                    <div className="offcanvas__contact-text">
+                    </div> */}
+                    {/* <div className="offcanvas__contact-text">
                       <a target="_blank" href="#">Lun-Vie, 09am -02pm</a>
-                    </div>
+                    </div> */}
                   </li>
 
                 </ul>
                 <div className="header-button mt-4">
                   <Link href="/contact"
                     className="common-btn box-style first-box d-inline-flex justify-content-center align-items-center gap-xxl-2 gap-2 fs18 fw-semibold white overflow-hidden p1-bg rounded-2">
-                    Botón
+                    Contacto
                   </Link>
                 </div>
                 <div

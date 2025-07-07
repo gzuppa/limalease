@@ -2,9 +2,9 @@ import HomeOne from "@/components/home";
 import React from "react";
 
 export const metadata = {
-	title: "LimaLease",
+	title: "LimexLease",
 	description:
-		"LimaLease descripción metadata",
+		"LimexLease descripción metadata",
 };
 
 const index = () => {

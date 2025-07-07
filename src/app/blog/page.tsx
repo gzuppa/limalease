@@ -4,9 +4,9 @@ import React from 'react';
 
 // TO DO: REVISAR TODA LA METADATA
 export const metadata = {
-	title: "LimaLease",
+	title: "LimexLease",
 	description:
-		"LimaLease metadata",
+		"LimexLease metadata",
 };
 
 const index = () => {

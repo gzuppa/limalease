@@ -3,9 +3,9 @@ import Faqs from '@/components/faqs';
 import React from 'react';
 
 export const metadata = {
-	title: "LimaLease",
+	title: "LimexLease",
 	description:
-		"LimaLease METADATA",
+		"LimexLease METADATA",
 };
 
 const index = () => {

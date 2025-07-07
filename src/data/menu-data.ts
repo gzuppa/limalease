@@ -28,7 +28,7 @@ const menu_data:MenuType[] = [
 	},
 	{
 		id: 2,
-		title: "Quienes somos",
+		title: "Valores",
 		link: "/about",
 		has_dropdown: false,
 	},
@@ -39,7 +39,8 @@ const menu_data:MenuType[] = [
 		has_dropdown: true,
 		sub_menus: [
 			{ link: "/blog", title: "Productos" },
-			{ link: "/faqs", title: "FAQ" }
+			{ link: "/faqs", title: "FAQ" },
+			{ link: "/docs", title: "Requisitos de Documentación" }
 		],
 	},
 	// {

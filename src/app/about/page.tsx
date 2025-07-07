@@ -5,9 +5,9 @@ import React from 'react';
 
 
 export const metadata = {
-	title: "LimaLease",
+	title: "LimexLease",
 	description:
-		"LimaLease metadata",
+		"LimexLease metadata",
 };
 
 const index = () => {

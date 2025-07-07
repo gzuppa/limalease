@@ -11,7 +11,7 @@ const BreadcrumbsPricing = () => {
               FAQ
             </h6> */}
             <h2 className="black visible-slowly-right fw-bold d-block">
-              ¿Quienes somos?
+              Valores
             </h2>
           </div>
       </section>

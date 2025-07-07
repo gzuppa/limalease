@@ -3,9 +3,9 @@ import Team from '@/components/team';
 import React from 'react';
 
 export const metadata = {
-	title: "LimaLease",
+	title: "LimexLease",
 	description:
-		"LimaLease METADATA",
+		"LimexLease METADATA",
 };
 
 const index = () => {

@@ -1,6 +1,5 @@
 
 
-import Link from 'next/link';
 import React from 'react';
 
 const FooterOne = () => {
@@ -63,11 +62,13 @@ const FooterOne = () => {
                     <button type="button"
                       className="subscribe box-style first-box p1-bg fs-seven fw_700 white-clr text-center text-nowrap py-3 px-4 rounded-2">Suscribete</button>
                   </form>
+                  <a href='https://drive.google.com/file/d/1POTHlfCdiJrKGAYCS9wI63GddCmi7_EH/view?usp=sharing' target="_blank" rel="noopener noreferrer">
+                    <h4 className="white-clr fw_600 mt-60">Aviso de privacidad</h4>
+                  </a>
                 </div>
               </div>
             </div>
           </div>
-
           <img src="assets/img/element/slogan-v1-shape3.png" alt="element" className="footer-element" />
         </div>
         {/* <div className="footer-bottom">
