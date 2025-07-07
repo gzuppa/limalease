@@ -39,7 +39,9 @@ const InfoCard = () => {
 
       <div className="mt-4">
         <button className="contact-btn">
-          CONTÁCTANOS &nbsp; <i className="fa-solid fa-chevron-right"></i>
+          <a href='/contact'>
+            CONTÁCTANOS &nbsp; <i className="fa-solid fa-chevron-right"></i>
+          </a>
         </button>
       </div>
     </div>
