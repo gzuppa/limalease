@@ -49,7 +49,7 @@ const Offcanvas = ({open, toggleSidebar} :any) => {
                     </div>
                     <div className="offcanvas__contact-text">
                       <a href="mailto:info@example.com"><span
-                        className="mailto:info@example.com">contacto@limexleasing.mx</span></a>
+                        className="mailto:info@example.com">contacto@limexlease.mx</span></a>
                     </div>
                   </li>
                   <li className="d-flex align-items-center">

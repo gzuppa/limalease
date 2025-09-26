@@ -17,7 +17,7 @@ const FooterOne = () => {
                     </p>
                     <span className="fs-five white-clr">Estamos listos para ayudarte</span>
                     <a href="#" className="fs-four d-block white-clr">+52 55 7938 5984</a>
-                    <a href="#" className="fs-four d-block white-clr mb-3">contacto@limexleasing.mx</a>
+                    <a href="#" className="fs-four d-block white-clr mb-3">contacto@limexlease.mx</a>
                     <ul
                       className="social-text d-flex justify-content-center justify-content-md-start flex-xl-nowrap flex-wrap align-items-center gap-xxl-3 gap-xl-2 gap-1">
                       <li><a href="#"

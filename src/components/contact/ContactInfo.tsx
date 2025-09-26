@@ -42,7 +42,7 @@ const ContactInfo = () => {
                   <p className="pra fs-seven">
                     Escríbenos, estamos para ayudarte
                   </p>
-                  <a href="#" className="p1-clr fw-semibold">contacto@limexleasing.mx</a>
+                  <a href="#" className="p1-clr fw-semibold">contacto@limexlease.mx</a>
                 </div>
               </div>
             </div>
